@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include infostar_cstm_app *.css
+recursive-include infostar_cstm_app *.csv
+recursive-include infostar_cstm_app *.html
+recursive-include infostar_cstm_app *.ico
+recursive-include infostar_cstm_app *.js
+recursive-include infostar_cstm_app *.json
+recursive-include infostar_cstm_app *.md
+recursive-include infostar_cstm_app *.png
+recursive-include infostar_cstm_app *.py
+recursive-include infostar_cstm_app *.svg
+recursive-include infostar_cstm_app *.txt
+recursive-exclude infostar_cstm_app *.pyc
