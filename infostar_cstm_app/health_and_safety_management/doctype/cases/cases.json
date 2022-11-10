@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-08 23:14:39.395658",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "case_code",
+  "case_name",
+  "case_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "case_code",
+   "fieldtype": "Data",
+   "label": "Case Code"
+  },
+  {
+   "fieldname": "case_name",
+   "fieldtype": "Data",
+   "label": "Case Name"
+  },
+  {
+   "fieldname": "case_description",
+   "fieldtype": "Data",
+   "label": "Case Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-08 23:14:39.395658",
+ "modified_by": "Administrator",
+ "module": "Health and Safety Management",
+ "name": "Cases",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-08 23:15:40.800396",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "incidence_id",
+  "incidence_name",
+  "incidence_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "incidence_id",
+   "fieldtype": "Data",
+   "label": "Incidence Id"
+  },
+  {
+   "fieldname": "incidence_name",
+   "fieldtype": "Data",
+   "label": "Incidence Name"
+  },
+  {
+   "fieldname": "incidence_description",
+   "fieldtype": "Data",
+   "label": "incidence Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-08 23:15:40.800396",
+ "modified_by": "Administrator",
+ "module": "Health and Safety Management",
+ "name": "Incidence Type",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

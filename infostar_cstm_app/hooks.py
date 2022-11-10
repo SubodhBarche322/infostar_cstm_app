@@ -103,6 +103,20 @@ app_license = "MIT"
 #	}
 # }
 
+doc_events = {
+	
+	"Sales Invoice":{
+		"on_submit": "infostar_cstm_app.sales_invoice_events.generate_series"
+	},
+
+	"Employee": {
+
+		"on_update": "infostar_cstm_app.api.insert_in"
+	}
+
+
+}
+
 # Scheduled Tasks
 # ---------------
 

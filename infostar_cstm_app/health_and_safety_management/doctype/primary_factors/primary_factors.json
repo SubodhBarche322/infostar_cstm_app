@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series",
+ "creation": "2022-11-08 12:48:51.408207",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "factor_code",
+  "factor_name",
+  "factor_description",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "factor_code",
+   "fieldtype": "Data",
+   "label": "Factor Code"
+  },
+  {
+   "fieldname": "factor_name",
+   "fieldtype": "Data",
+   "label": "Factor Name"
+  },
+  {
+   "fieldname": "factor_description",
+   "fieldtype": "Data",
+   "label": "Factor Description"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "PF-.-"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-08 13:03:52.482433",
+ "modified_by": "Administrator",
+ "module": "Health and Safety Management",
+ "name": "Primary Factors",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

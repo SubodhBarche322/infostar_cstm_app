@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-08 23:18:37.532624",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "incidence_code",
+  "victim",
+  "location_of_incidence",
+  "data_4",
+  "task_assigned_at_the_time_of_incidence",
+  "incidence_type",
+  "investigation_team",
+  "detail",
+  "incidene_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "incidence_code",
+   "fieldtype": "Data",
+   "label": "Incidence Code"
+  },
+  {
+   "fieldname": "victim",
+   "fieldtype": "Link",
+   "label": "Victim",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "location_of_incidence",
+   "fieldtype": "Data",
+   "label": "Location Of Incidence"
+  },
+  {
+   "fieldname": "data_4",
+   "fieldtype": "Date",
+   "label": "Date and time of incidence"
+  },
+  {
+   "fieldname": "task_assigned_at_the_time_of_incidence",
+   "fieldtype": "Data",
+   "label": "Task assigned at the time of incidence"
+  },
+  {
+   "fieldname": "incidence_type",
+   "fieldtype": "Link",
+   "label": "Incidence Type",
+   "options": "Incidence Type"
+  },
+  {
+   "fieldname": "investigation_team",
+   "fieldtype": "Data",
+   "label": "Investigation Team"
+  },
+  {
+   "fieldname": "detail",
+   "fieldtype": "Text",
+   "label": "Detail"
+  },
+  {
+   "fieldname": "incidene_status",
+   "fieldtype": "Link",
+   "label": "Incidene Status",
+   "options": "Incidence Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-08 23:29:28.290636",
+ "modified_by": "Administrator",
+ "module": "Health and Safety Management",
+ "name": "Incidence Record",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
