@@ -29,6 +29,7 @@ app_license = "MIT"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
+doctype_js = {"Item" : "public/js/item.js"}
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
@@ -112,6 +113,16 @@ doc_events = {
 	"Employee": {
 
 		"on_update": "infostar_cstm_app.api.insert_in"
+	},
+
+	"ImeiLocation": {
+
+		"on_save": "infostar_cstm_app.api.new_record"
+
+	},
+
+	"Item": {
+	 "before_save": "infostar_cstm_app.api.update_conversion_factor"
 	}
 
 
